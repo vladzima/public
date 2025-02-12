@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"node-1","type":"file","file":"Quantum/Quantum.md","x":320,"y":-360,"width":400,"height":200},
+		{"id":"node-0","type":"file","file":"Quantum/Introduction to the quantum programming language Q/Introduction to the quantum programming language Q.md","x":320,"y":0,"width":400,"height":200},
+		{"id":"node-2","type":"file","file":"Quantum/Quickstart Create your first Q program/Quickstart Create your first Q program.md","x":840,"y":0,"width":400,"height":200},
+		{"id":"33f301c842fadfe4","type":"file","file":"Quantum/Tutorial Implement the Quantum Fourier Transform in Q/Tutorial Implement the Quantum Fourier Transform in Q.md","x":1880,"y":520,"width":400,"height":400},
+		{"id":"a912361001a9321f","type":"file","file":"Quantum/Tutorial Implement the Quantum Fourier Transform in Q/Briefing Document Quantum Fourier Transform in Q.md","x":2440,"y":420,"width":400,"height":200},
+		{"id":"75c81c7bd24e4857","type":"file","file":"Quantum/Tutorial Implement the Quantum Fourier Transform in Q/Quantum Computing with Q An FAQ.md","x":2440,"y":760,"width":400,"height":200},
+		{"id":"node-3","type":"file","file":"Quantum/Tutorial Explore quantum entanglement with Q/Tutorial Explore quantum entanglement with Q.md","x":-520,"y":520,"width":400,"height":400},
+		{"id":"5e1a9012e5dc9157","type":"file","file":"Quantum/Tutorial Explore quantum entanglement with Q/Briefing Document Quantum Entanglement with Q Tutorial.md","x":-520,"y":1167,"width":400,"height":400},
+		{"id":"6e610bcbc069fc28","type":"file","file":"Quantum/Tutorial Explore quantum entanglement with Q/Frequently Asked Questions on Quantum Entanglement with Q.md","x":-1040,"y":1167,"width":400,"height":400},
+		{"id":"node-4","type":"file","file":"Quantum/Tutorial Implement a quantum random number generator in Q/Tutorial Implement a quantum random number generator in Q.md","x":120,"y":520,"width":400,"height":400},
+		{"id":"008a3d31e28796f8","x":120,"y":1167,"width":400,"height":400,"type":"file","file":"Quantum/Tutorial Implement a quantum random number generator in Q/Frequently Asked Questions About Quantum Random Number Generators.md"},
+		{"id":"ac4e715b650a8f7e","x":640,"y":1167,"width":400,"height":400,"type":"file","file":"Quantum/Tutorial Implement a quantum random number generator in Q/Briefing Document Quantum Random Number Generator with Q.md"},
+		{"id":"4f452da1e0f005e3","x":-720,"y":-580,"width":400,"height":400,"type":"file","file":"Quantum/Introduction to the quantum programming language Q/Q&A About Q and Quantum Programming.md"},
+		{"id":"ce511aef1993f044","x":-720,"y":-100,"width":400,"height":400,"type":"file","file":"Quantum/Introduction to the quantum programming language Q/Briefing Document Q Quantum Programming Language.md"},
+		{"id":"8231bc0731e7afbc","x":1520,"y":-760,"width":400,"height":400,"type":"file","file":"Quantum/Quickstart Create your first Q program/Briefing Document Q Quantum Entanglement Quickstart.md"},
+		{"id":"b3416c11829a07d1","x":1520,"y":-200,"width":400,"height":400,"type":"file","file":"Quantum/Quickstart Create your first Q program/Quickstart to a basic programming with Q FAQ.md"},
+		{"id":"e5d69838d896f872","type":"file","file":"Quantum/Tutorial Implement Grover's search algorithm in Q/Tutorial Implement Grover's search algorithm in Q.md","x":1120,"y":520,"width":400,"height":400},
+		{"id":"c6feb75a96b4cfc4","type":"file","file":"Quantum/Tutorial Implement Grover's search algorithm in Q/Briefing Document Grover's Algorithm Implementation in Q.md","x":1120,"y":1167,"width":400,"height":200},
+		{"id":"74325cafcc5638ee","type":"file","file":"Quantum/Tutorial Implement Grover's search algorithm in Q/FAQ on Grover's Algorithm.md","x":1600,"y":1167,"width":400,"height":200}
+	],
+	"edges":[
+		{"id":"8c2e55e49c65a5c8","fromNode":"node-1","fromSide":"bottom","toNode":"node-0","toSide":"top"},
+		{"id":"fd86ec642c69d9f4","fromNode":"node-0","fromSide":"right","toNode":"node-2","toSide":"left"},
+		{"id":"ca129ec8f426d76a","fromNode":"node-2","fromSide":"bottom","toNode":"node-3","toSide":"top"},
+		{"id":"36d177848e3c8c4f","fromNode":"node-2","fromSide":"bottom","toNode":"node-4","toSide":"top"},
+		{"id":"febe46f6a56c9705","fromNode":"e5d69838d896f872","fromSide":"bottom","toNode":"c6feb75a96b4cfc4","toSide":"top"},
+		{"id":"35729d5ec6d8f41e","fromNode":"e5d69838d896f872","fromSide":"bottom","toNode":"74325cafcc5638ee","toSide":"top"},
+		{"id":"07cc06e907b2dc3c","fromNode":"node-2","fromSide":"bottom","toNode":"e5d69838d896f872","toSide":"top"},
+		{"id":"54f7af055400093e","fromNode":"node-2","fromSide":"bottom","toNode":"33f301c842fadfe4","toSide":"top"},
+		{"id":"c96a310d75dfcef5","fromNode":"33f301c842fadfe4","fromSide":"right","toNode":"a912361001a9321f","toSide":"left"},
+		{"id":"92784473887c3bf5","fromNode":"33f301c842fadfe4","fromSide":"right","toNode":"75c81c7bd24e4857","toSide":"left"},
+		{"id":"51be319f1f2c7812","fromNode":"node-3","fromSide":"bottom","toNode":"6e610bcbc069fc28","toSide":"top"},
+		{"id":"b774a4d6e27900d8","fromNode":"node-3","fromSide":"bottom","toNode":"5e1a9012e5dc9157","toSide":"top"},
+		{"id":"e91aa67512e92341","fromNode":"node-4","fromSide":"bottom","toNode":"008a3d31e28796f8","toSide":"top"},
+		{"id":"06d39ca219520b85","fromNode":"node-4","fromSide":"bottom","toNode":"ac4e715b650a8f7e","toSide":"top"},
+		{"id":"5a8c2cc807048e0f","fromNode":"node-0","fromSide":"left","toNode":"4f452da1e0f005e3","toSide":"right"},
+		{"id":"ea1b60b3e0de3e24","fromNode":"node-0","fromSide":"left","toNode":"ce511aef1993f044","toSide":"right"},
+		{"id":"87975e33f7299e82","fromNode":"node-2","fromSide":"right","toNode":"8231bc0731e7afbc","toSide":"left"},
+		{"id":"efc8fa6772697f75","fromNode":"node-2","fromSide":"right","toNode":"b3416c11829a07d1","toSide":"left"}
+	]
+}
